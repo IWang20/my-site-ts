@@ -9,14 +9,20 @@ html {
 }
 
 html, * {
-  font-family: orpheuspro, serif;
 }
 
 body {
+  font-family: orpheuspro, serif;
   margin: 0;
+  background-color: #F2EADF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: orpheuspro, serif;
 }
 
 h1 {
+
   font-size: 2em;
   font-weight: 400;
   margin: 0.67em 0;
@@ -84,7 +90,7 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
 button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
+/* 
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -117,4 +123,11 @@ progress {
 
 [hidden] {
   display: none;
+} */
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
