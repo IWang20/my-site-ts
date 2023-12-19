@@ -1,2 +1,2 @@
-# my-site-js
-A JavaScript project
+# Ian Wang's Personal Site
+portfolio included
