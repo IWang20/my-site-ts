@@ -1,5 +1,7 @@
 'use strict';
 
+const { Router } = require("express");
+
 function counter() {
   let seconds = 0;
   setInterval(() => {
@@ -7,5 +9,8 @@ function counter() {
     document.getElementById('app').innerHTML = `<p>You have been here for ${seconds} seconds.</p>`;
   }, 1000);
 }
+
+
+
 
 counter();
