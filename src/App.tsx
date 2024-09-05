@@ -1,12 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
+import {Experience} from './Experience';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App playfair-display-text">
       <header className="App-header">
-          <h1>Ian Wang :3</h1>
+          Ian Wang :3
+          <Experience/>
       </header>
     </div>
   );
