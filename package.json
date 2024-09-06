@@ -2,7 +2,7 @@
   "name": "my-site-js",
   "version": "0.1.0",
   "private": true,
-  "homepage": "httpe://IWang20.github.io/my-site-ts",
+  "homepage": "https://IWang20.github.io/my-site-ts",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
