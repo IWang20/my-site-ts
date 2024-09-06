@@ -1,0 +1,33 @@
+{ 
+    "experiences": [
+        {
+            "role": "Warehouse Associate",
+            "skills": "QA, Shipping/Handling",
+            "company": "Amazon",
+            "location": "Hillsboro, OR",
+            "dates": "June 2024 - Sept 2024",
+            "description": ["Quality assurance and sorting of returned items, shipping, and handling"]
+        },
+        {
+            "role": "Engineering Intern",
+            "skills": "Docker, Kubernetes",
+            "company": "IT Department - Taipei City Government",
+            "location": "Taipei, Taiwan",
+            "dates": "July 2022 - Aug 2022",
+            "description": ["Intern for the local government’s IT department, for a proof-of-concept website infrastructure project",
+                            "Learned how to setup Kubernetes clusters on GCP and deploy images to them"]
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "Fabflix",
+            "technologies": "Java, JS, Tomcat, MySQL, Docker, Kubernetes",
+            "dates": "June 2024",
+            "description": ["Full-stack app that retrieves, displays, and stores movies from a relational database; users can log in and check them out",
+                            "Implemented JavaServlets to handle queries and authentication",
+                            "Integrated HTTPS and reCaptcha for login security",
+                            "Setup a Kubernetes cluster on AWS and deployed the application to it using Docker"]
+        }
+    ]
+}

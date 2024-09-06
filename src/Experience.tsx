@@ -1,9 +1,11 @@
 import './Experience.css';
+import {ExperienceComponent} from './types';
 
-export function Experience() {
+export const Experience: ExperienceComponent = ({data}) => {
+    console.log(data)
     return (
         <div className="Experience">
-            <div className="exp-h1">test</div>
+            <div className="exp-h1">{data.role} | test</div>
         </div>
     );
 }
