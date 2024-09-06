@@ -17,3 +17,6 @@ export type ProjectData = {
 }
 type ExperienceProps = {data: ExperienceData}
 export type ExperienceComponent = FunctionComponent<ExperienceProps>
+
+type ProjectProps = {data: ProjectData}
+export type ProjectComponent = FunctionComponent<ProjectProps>

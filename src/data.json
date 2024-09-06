@@ -16,6 +16,15 @@
             "dates": "July 2022 - Aug 2022",
             "description": ["Intern for the local government’s IT department, for a proof-of-concept website infrastructure project",
                             "Learned how to setup Kubernetes clusters on GCP and deploy images to them"]
+        },
+        {
+            "role": "Frontend Developer",
+            "skills": "Ruby on Rails, HTML, CSS",
+            "company": "City Morph Studio",
+            "location": "Torrance, CA",
+            "dates": "July 2021 - Mar 2022",
+            "description": ["Built the frontend for client EZPlan’s pricing tool, allowing users to approximate the cost of services through their plan selections. Has dynamic sizing for mobile and desktop.",
+                            "Learned how to setup Kubernetes clusters on GCP and deploy images to them"]
         }
     ],
 
