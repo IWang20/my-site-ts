@@ -23,6 +23,10 @@
   font-size: calc(40px + 2vmin);
 }
 
+.contact { 
+  font-size: .30em;
+}
+
 h1, h2, h3 { 
   font-style: normal;
   margin-top: 0;

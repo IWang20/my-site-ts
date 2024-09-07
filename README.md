@@ -1,5 +1,6 @@
 this personal website is to practice using typescript and react 
 npm start
+npm run build
 
 links used to learn react/html/css while working:
 https://zellwk.com/blog/viewport-based-typography/

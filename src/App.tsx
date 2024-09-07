@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <div className='title'>Ian Wang</div>
-          
+          <div className='title'>Ian Wang <span className="contact">cmpianw@gmail.com | <a href="https://www.linkedin.com/in/ian-wang-4a63a1198/">linkedin</a></span></div>
+          <br />
           <h1>Experiences</h1>
           {data.experiences.map((experience) => (
             <Experience data={experience}/>
@@ -32,6 +32,8 @@ function App() {
           ))}
           
       </header>
+
+      
     </div>
   );
 }
