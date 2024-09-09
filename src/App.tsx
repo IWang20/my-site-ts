@@ -21,6 +21,16 @@ function App() {
       <header className="App-header">
           <div className='title'>Ian Wang <span className="contact">cmpianw@gmail.com | <a href="https://www.linkedin.com/in/ian-wang-4a63a1198/">linkedin</a></span></div>
           <br />
+          <h1>Education / Coursework</h1>
+          <h1 className="exp-h1">UC Irvine | Computer Science B.S. | GPA 3.4 | 2021-2025</h1>
+          <ul>
+            <li>Object Oriented Programming, Linear Algebra,
+Data Structures, Algorithms Analysis, Discrete Math,
+Computer Organization, <br />System Design, Database Management Systems,
+Introduction to AI, Formal Languages and Automata Theory,
+AI in Education</li>
+          </ul>
+          <br />
           <h1>Experiences</h1>
           {data.experiences.map((experience) => (
             <Experience data={experience}/>
