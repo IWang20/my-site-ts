@@ -8,5 +8,6 @@ https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/
 
 
 To Do List:
-* update favicon and images 
-* write bio and contact (email)
+* portfolio section/drive link?
+* create dropdown sections for experience, education, projects, portfolio etc.
+* make a blog poster page?
