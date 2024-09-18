@@ -5,6 +5,7 @@ npm run build
 links used to learn react/html/css while working:
 https://zellwk.com/blog/viewport-based-typography/
 https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/
+https://hygraph.com/blog/routing-in-react
 
 
 To Do List:
